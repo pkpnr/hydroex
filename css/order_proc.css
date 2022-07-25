@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+* {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
+}
+
+div.invoice {
+  background-image: url('../image/receipt.png');
+  background-size: cover;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding:10px;
+  height:600pt;
+  width:500pt;
+}
+
+div.company-address {
+  font-size: 15px;
+  float:left;
+  width:200pt;
+}
+
+div.invoice-details {
+  font-size: 15px;
+  margin-top: 100px;
+  margin-left: 190px;
+  float:right;
+  width:200pt;
+}
+
+div.customer-address {
+  font-size: 15px;
+  float:right;
+  margin-bottom:50px;
+  margin-top:10px;
+  margin-left: 190px;
+  width:200pt;
+}
+
+div.clear-fix {
+  clear:both;
+  float:none;
+}
+
+table {
+  width:100%;
+}
+
+th {
+  margin: auto;
+  font-size: 15px;
+  text-align: left;
+}
+
+
+.text-left {
+  font-size: 15px;
+  text-align:left;
+}
+
+.text-center {
+  font-size: 15px;
+  text-align: center;
+  padding-right: 30px;
+}
+
+
+.text-rightp {
+  font-size: 15px;
+  padding-left: 14px;
+}
+
+.text-rights {
+  font-size: 15px;
+  text-align: right;
+  padding-right: 45px;
+}
+
+.text-right {
+  font-size: 15px;
+  text-align: right;
+  padding-right: 80px;
+}
+
+div.orderDone form button.btn {
+  width: 30%; 
+  height: 10%; 
+  font-size: 30px; 
+  font-weight: bold;
+}
